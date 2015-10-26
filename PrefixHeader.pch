@@ -1,0 +1,47 @@
+//
+//  PrefixHeader.pch
+//  JSONWarpExample
+//
+//  Created by Konstantinos Kontos on 24/10/15.
+//  Copyright © 2015 Saturated Colors. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef DEBUG
+
+#ifndef DebugLog
+
+#define DebugLog( s, ... ) NSLog( @"📢DEBUG: <%@:(%d)> %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#define WarnLog( s, ... ) NSLog( @"❗️WARN: <%@:(%d)> %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#define InfoLog( s, ... ) NSLog( @"🔵INFO: <%@:(%d)> %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+
+#endif
+
+#elif defined DEBUG_WARN
+
+#ifndef DebugLog
+
+#define DebugLog( s, ... )
+#define WarnLog( s, ... ) NSLog( @"❗️WARN: <%@:(%d)> %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#define InfoLog( s, ... )
+
+#endif
+
+#elif defined DEBUG_INFO
+
+#ifndef DebugLog
+
+#define DebugLog( s, ... )
+#define WarnLog( s, ... )
+#define InfoLog( s, ... ) NSLog( @"🔵INFO: <%@:(%d)> %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+
+#endif
+
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

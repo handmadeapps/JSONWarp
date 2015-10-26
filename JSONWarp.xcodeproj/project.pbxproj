@@ -10,6 +10,32 @@
 		854ADCF31BDE2FC7003DD07F /* JSONWarp.h in Headers */ = {isa = PBXBuildFile; fileRef = 854ADCF21BDE2FC7003DD07F /* JSONWarp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		854ADCFA1BDE2FC7003DD07F /* JSONWarp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854ADCEF1BDE2FC7003DD07F /* JSONWarp.framework */; };
 		854ADCFF1BDE2FC7003DD07F /* JSONWarpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 854ADCFE1BDE2FC7003DD07F /* JSONWarpTests.m */; };
+		854ADD1B1BDE2FFB003DD07F /* NSDictionary+SCLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 854ADD0B1BDE2FFB003DD07F /* NSDictionary+SCLUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		854ADD1C1BDE2FFB003DD07F /* NSDictionary+SCLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 854ADD0C1BDE2FFB003DD07F /* NSDictionary+SCLUtils.m */; };
+		854ADD1D1BDE2FFB003DD07F /* NSDictionary+SCLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 854ADD0C1BDE2FFB003DD07F /* NSDictionary+SCLUtils.m */; };
+		854ADD1E1BDE2FFB003DD07F /* NSString+SCLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 854ADD0D1BDE2FFB003DD07F /* NSString+SCLUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		854ADD1F1BDE2FFB003DD07F /* NSString+SCLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 854ADD0E1BDE2FFB003DD07F /* NSString+SCLUtils.m */; };
+		854ADD201BDE2FFB003DD07F /* NSString+SCLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 854ADD0E1BDE2FFB003DD07F /* NSString+SCLUtils.m */; };
+		854ADD211BDE2FFB003DD07F /* SCLJSONArrayTransfomer.h in Headers */ = {isa = PBXBuildFile; fileRef = 854ADD0F1BDE2FFB003DD07F /* SCLJSONArrayTransfomer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		854ADD221BDE2FFB003DD07F /* SCLJSONArrayTransfomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 854ADD101BDE2FFB003DD07F /* SCLJSONArrayTransfomer.m */; };
+		854ADD231BDE2FFB003DD07F /* SCLJSONArrayTransfomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 854ADD101BDE2FFB003DD07F /* SCLJSONArrayTransfomer.m */; };
+		854ADD241BDE2FFB003DD07F /* SCLJSONDictTransfomer.h in Headers */ = {isa = PBXBuildFile; fileRef = 854ADD111BDE2FFB003DD07F /* SCLJSONDictTransfomer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		854ADD251BDE2FFB003DD07F /* SCLJSONDictTransfomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 854ADD121BDE2FFB003DD07F /* SCLJSONDictTransfomer.m */; };
+		854ADD261BDE2FFB003DD07F /* SCLJSONDictTransfomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 854ADD121BDE2FFB003DD07F /* SCLJSONDictTransfomer.m */; };
+		854ADD271BDE2FFB003DD07F /* SCLJSONNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 854ADD131BDE2FFB003DD07F /* SCLJSONNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		854ADD281BDE2FFB003DD07F /* SCLJSONNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 854ADD141BDE2FFB003DD07F /* SCLJSONNode.m */; };
+		854ADD291BDE2FFB003DD07F /* SCLJSONNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 854ADD141BDE2FFB003DD07F /* SCLJSONNode.m */; };
+		854ADD2A1BDE2FFB003DD07F /* SCLJSONNodeTransfomer.h in Headers */ = {isa = PBXBuildFile; fileRef = 854ADD151BDE2FFB003DD07F /* SCLJSONNodeTransfomer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		854ADD2B1BDE2FFB003DD07F /* SCLJSONNodeTransfomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 854ADD161BDE2FFB003DD07F /* SCLJSONNodeTransfomer.m */; };
+		854ADD2C1BDE2FFB003DD07F /* SCLJSONNodeTransfomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 854ADD161BDE2FFB003DD07F /* SCLJSONNodeTransfomer.m */; };
+		854ADD2D1BDE2FFB003DD07F /* SCLJSONWarp.h in Headers */ = {isa = PBXBuildFile; fileRef = 854ADD171BDE2FFB003DD07F /* SCLJSONWarp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		854ADD2E1BDE2FFB003DD07F /* SCLJSONWarp.m in Sources */ = {isa = PBXBuildFile; fileRef = 854ADD181BDE2FFB003DD07F /* SCLJSONWarp.m */; };
+		854ADD2F1BDE2FFB003DD07F /* SCLJSONWarp.m in Sources */ = {isa = PBXBuildFile; fileRef = 854ADD181BDE2FFB003DD07F /* SCLJSONWarp.m */; };
+		85E287321BDE3B9D00F5B9D3 /* NSDictionary+SCLUtils.m in Headers */ = {isa = PBXBuildFile; fileRef = 854ADD0C1BDE2FFB003DD07F /* NSDictionary+SCLUtils.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		85E287331BDE3B9D00F5B9D3 /* NSString+SCLUtils.m in Headers */ = {isa = PBXBuildFile; fileRef = 854ADD0E1BDE2FFB003DD07F /* NSString+SCLUtils.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		85E287341BDE3BA700F5B9D3 /* SCLJSONArrayTransfomer.m in Headers */ = {isa = PBXBuildFile; fileRef = 854ADD101BDE2FFB003DD07F /* SCLJSONArrayTransfomer.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		85E287351BDE3BA700F5B9D3 /* SCLJSONDictTransfomer.m in Headers */ = {isa = PBXBuildFile; fileRef = 854ADD121BDE2FFB003DD07F /* SCLJSONDictTransfomer.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		85E287361BDE3BA700F5B9D3 /* SCLJSONNodeTransfomer.m in Headers */ = {isa = PBXBuildFile; fileRef = 854ADD161BDE2FFB003DD07F /* SCLJSONNodeTransfomer.m */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +55,23 @@
 		854ADCF91BDE2FC7003DD07F /* JSONWarpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONWarpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		854ADCFE1BDE2FC7003DD07F /* JSONWarpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONWarpTests.m; sourceTree = "<group>"; };
 		854ADD001BDE2FC7003DD07F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		854ADD0B1BDE2FFB003DD07F /* NSDictionary+SCLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SCLUtils.h"; sourceTree = "<group>"; };
+		854ADD0C1BDE2FFB003DD07F /* NSDictionary+SCLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SCLUtils.m"; sourceTree = "<group>"; };
+		854ADD0D1BDE2FFB003DD07F /* NSString+SCLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SCLUtils.h"; sourceTree = "<group>"; };
+		854ADD0E1BDE2FFB003DD07F /* NSString+SCLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SCLUtils.m"; sourceTree = "<group>"; };
+		854ADD0F1BDE2FFB003DD07F /* SCLJSONArrayTransfomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLJSONArrayTransfomer.h; sourceTree = "<group>"; };
+		854ADD101BDE2FFB003DD07F /* SCLJSONArrayTransfomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLJSONArrayTransfomer.m; sourceTree = "<group>"; };
+		854ADD111BDE2FFB003DD07F /* SCLJSONDictTransfomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLJSONDictTransfomer.h; sourceTree = "<group>"; };
+		854ADD121BDE2FFB003DD07F /* SCLJSONDictTransfomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLJSONDictTransfomer.m; sourceTree = "<group>"; };
+		854ADD131BDE2FFB003DD07F /* SCLJSONNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLJSONNode.h; path = core/SCLJSONNode.h; sourceTree = "<group>"; };
+		854ADD141BDE2FFB003DD07F /* SCLJSONNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLJSONNode.m; path = core/SCLJSONNode.m; sourceTree = "<group>"; };
+		854ADD151BDE2FFB003DD07F /* SCLJSONNodeTransfomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLJSONNodeTransfomer.h; sourceTree = "<group>"; };
+		854ADD161BDE2FFB003DD07F /* SCLJSONNodeTransfomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLJSONNodeTransfomer.m; sourceTree = "<group>"; };
+		854ADD171BDE2FFB003DD07F /* SCLJSONWarp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLJSONWarp.h; path = core/SCLJSONWarp.h; sourceTree = "<group>"; };
+		854ADD181BDE2FFB003DD07F /* SCLJSONWarp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLJSONWarp.m; path = core/SCLJSONWarp.m; sourceTree = "<group>"; };
+		854ADD341BDE328D003DD07F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		854ADD351BDE34B3003DD07F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		854ADD361BDE34C5003DD07F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +96,8 @@
 		854ADCE51BDE2FC7003DD07F = {
 			isa = PBXGroup;
 			children = (
+				854ADD361BDE34C5003DD07F /* LICENSE */,
+				854ADD351BDE34B3003DD07F /* README.md */,
 				854ADCF11BDE2FC7003DD07F /* JSONWarp */,
 				854ADCFD1BDE2FC7003DD07F /* JSONWarpTests */,
 				854ADCF01BDE2FC7003DD07F /* Products */,
@@ -72,7 +117,14 @@
 			isa = PBXGroup;
 			children = (
 				854ADCF21BDE2FC7003DD07F /* JSONWarp.h */,
+				854ADD131BDE2FFB003DD07F /* SCLJSONNode.h */,
+				854ADD141BDE2FFB003DD07F /* SCLJSONNode.m */,
+				854ADD171BDE2FFB003DD07F /* SCLJSONWarp.h */,
+				854ADD181BDE2FFB003DD07F /* SCLJSONWarp.m */,
+				854ADD311BDE3021003DD07F /* Categories */,
+				854ADD301BDE3014003DD07F /* Value Transformers */,
 				854ADCF41BDE2FC7003DD07F /* Info.plist */,
+				854ADD341BDE328D003DD07F /* PrefixHeader.pch */,
 			);
 			path = JSONWarp;
 			sourceTree = "<group>";
@@ -86,6 +138,32 @@
 			path = JSONWarpTests;
 			sourceTree = "<group>";
 		};
+		854ADD301BDE3014003DD07F /* Value Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				854ADD0F1BDE2FFB003DD07F /* SCLJSONArrayTransfomer.h */,
+				854ADD101BDE2FFB003DD07F /* SCLJSONArrayTransfomer.m */,
+				854ADD111BDE2FFB003DD07F /* SCLJSONDictTransfomer.h */,
+				854ADD121BDE2FFB003DD07F /* SCLJSONDictTransfomer.m */,
+				854ADD151BDE2FFB003DD07F /* SCLJSONNodeTransfomer.h */,
+				854ADD161BDE2FFB003DD07F /* SCLJSONNodeTransfomer.m */,
+			);
+			name = "Value Transformers";
+			path = core;
+			sourceTree = "<group>";
+		};
+		854ADD311BDE3021003DD07F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				854ADD0B1BDE2FFB003DD07F /* NSDictionary+SCLUtils.h */,
+				854ADD0C1BDE2FFB003DD07F /* NSDictionary+SCLUtils.m */,
+				854ADD0D1BDE2FFB003DD07F /* NSString+SCLUtils.h */,
+				854ADD0E1BDE2FFB003DD07F /* NSString+SCLUtils.m */,
+			);
+			name = Categories;
+			path = core;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,6 +171,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				854ADD2D1BDE2FFB003DD07F /* SCLJSONWarp.h in Headers */,
+				854ADD271BDE2FFB003DD07F /* SCLJSONNode.h in Headers */,
+				854ADD1B1BDE2FFB003DD07F /* NSDictionary+SCLUtils.h in Headers */,
+				85E287321BDE3B9D00F5B9D3 /* NSDictionary+SCLUtils.m in Headers */,
+				854ADD1E1BDE2FFB003DD07F /* NSString+SCLUtils.h in Headers */,
+				85E287331BDE3B9D00F5B9D3 /* NSString+SCLUtils.m in Headers */,
+				854ADD211BDE2FFB003DD07F /* SCLJSONArrayTransfomer.h in Headers */,
+				85E287341BDE3BA700F5B9D3 /* SCLJSONArrayTransfomer.m in Headers */,
+				854ADD241BDE2FFB003DD07F /* SCLJSONDictTransfomer.h in Headers */,
+				85E287351BDE3BA700F5B9D3 /* SCLJSONDictTransfomer.m in Headers */,
+				854ADD2A1BDE2FFB003DD07F /* SCLJSONNodeTransfomer.h in Headers */,
+				85E287361BDE3BA700F5B9D3 /* SCLJSONNodeTransfomer.m in Headers */,
 				854ADCF31BDE2FC7003DD07F /* JSONWarp.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				854ADD2B1BDE2FFB003DD07F /* SCLJSONNodeTransfomer.m in Sources */,
+				854ADD1F1BDE2FFB003DD07F /* NSString+SCLUtils.m in Sources */,
+				854ADD1C1BDE2FFB003DD07F /* NSDictionary+SCLUtils.m in Sources */,
+				854ADD251BDE2FFB003DD07F /* SCLJSONDictTransfomer.m in Sources */,
+				854ADD281BDE2FFB003DD07F /* SCLJSONNode.m in Sources */,
+				854ADD2E1BDE2FFB003DD07F /* SCLJSONWarp.m in Sources */,
+				854ADD221BDE2FFB003DD07F /* SCLJSONArrayTransfomer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				854ADD201BDE2FFB003DD07F /* NSString+SCLUtils.m in Sources */,
 				854ADCFF1BDE2FC7003DD07F /* JSONWarpTests.m in Sources */,
+				854ADD261BDE2FFB003DD07F /* SCLJSONDictTransfomer.m in Sources */,
+				854ADD231BDE2FFB003DD07F /* SCLJSONArrayTransfomer.m in Sources */,
+				854ADD2C1BDE2FFB003DD07F /* SCLJSONNodeTransfomer.m in Sources */,
+				854ADD1D1BDE2FFB003DD07F /* NSDictionary+SCLUtils.m in Sources */,
+				854ADD2F1BDE2FFB003DD07F /* SCLJSONWarp.m in Sources */,
+				854ADD291BDE2FFB003DD07F /* SCLJSONNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +414,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = JSONWarp/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -326,6 +432,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = JSONWarp/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -338,6 +446,8 @@
 		854ADD071BDE2FC7003DD07F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = JSONWarpTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.saturatedcolors.JSONWarpTests;
@@ -348,6 +458,8 @@
 		854ADD081BDE2FC7003DD07F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = JSONWarpTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.saturatedcolors.JSONWarpTests;
@@ -374,6 +486,7 @@
 				854ADD051BDE2FC7003DD07F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		854ADD061BDE2FC7003DD07F /* Build configuration list for PBXNativeTarget "JSONWarpTests" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +495,7 @@
 				854ADD081BDE2FC7003DD07F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

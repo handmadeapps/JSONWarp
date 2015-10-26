@@ -68,12 +68,6 @@ Follow these steps to use the classes:
 - To obtain a child node from a type (3) SCLJSONNode, message the SCLJSONNode using: `- (SCLJSONNode *)sclNodeForNodeKey:(NSString *)keyStr` using `nil` for the `keyStr` parameter.
 
 
-# The sample project
-
-The project contains two sample JSON files and a single `ViewController` to showcase their use.
-
-Three sample example methods are included which showcase Warp class usage and accessing the graph.
-
 **TODO:** 
 
 - Better examples

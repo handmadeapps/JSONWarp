@@ -51,7 +51,7 @@ Follow these steps to use the classes:
 
 - In your Core Data Stack model initialization, merge the JSON Warp model by calling the static method: `[SCLJSONWarp sclAugmentedModelUsingBaseModel:yourCoreDataModel]`. This method will return a new merged model.
 
-- `#import <JSONWarp/SCLJSONWarp.h>`
+- `#import <JSONWarp/JSONWarp.h>`
 
 - Obtain an instance using your managed object context: `SCLJSONWarp *jsonWarp=[[SCLJSONWarp alloc] initWithManagedObjectContext:[AppDelegate instance].managedObjectContext];`
 

@@ -1,4 +1,4 @@
-SCL JSON Warp
+JSON Warp
 ====================
 
 An Objective-C
